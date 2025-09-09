@@ -96,9 +96,6 @@ int main(){
     graph[4].push_back(Edge(3,2));
     graph[3].push_back(Edge(4,2));
 
-    graph[4].push_back(Edge(2,5));
-    graph[2].push_back(Edge(4,5));
-
     // Run Dijkstra from source node 1
     dijkstra(1,graph,V);
 
